@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.lauterbach.trace32.debug.internal.core.T32LaunchConfigurationDelegate">
+<stringAttribute key="com.lauterbach.trace32.debug.t32.CMM_FILE" value="${ProjDirPath}/Project_Settings/Debugger/flash.cmm ${ConfigName} ${ProjName}.elf"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.CONFIG_FILE" value="${ProjDirPath}/Project_Settings/Debugger/config.t32"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.CPROJECT" value="MCSPTR2A5775E_Z7_0"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.EXECUTABLE" value="${S32DS_T32_PATH}/bin/windows64/t32mppc.exe"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.EXECUTABLE_TYPE" value="EXECUTABLE"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.INSTALL" value=""/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.INVOKE_SCRIPT_AFTER_LAUNCH" value="true"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.MASTER_LAUNCH" value=""/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.PROJECT_DIR" value="${ProjDirPath}"/>
+<stringAttribute key="com.lauterbach.trace32.debug.t32.USE_FOR_ALL_PROJECTS" value="false"/>
+</launchConfiguration>

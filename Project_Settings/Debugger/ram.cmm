@@ -1,0 +1,26 @@
+entry &build_cfg &binary_file
+
+system.reset
+system.detect.cpu
+system.option.watchdog off
+system.up
+
+; setup MMU for FLASH, RAM and peripheral access
+mmu.set tlb1 3. 0xC0000480 0x40000028 0x4000003F
+
+; Initialize internal SRAM
+if (cpu()=="MPC5777C")
+(
+	Data.Set EA:0x40000000--0x4003FFFF %Quad 0
+)
+else
+(
+  print %ERROR "Device "+cpu()+" not supported by this script."
+  enddo
+)
+
+data.load.elf ./&build_cfg/&binary_file /verify
+data.list
+go main 
+
+enddo

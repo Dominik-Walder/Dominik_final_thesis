@@ -1,0 +1,16 @@
+Release Name: Motor Control PMSM Development Kit for MPC5775E NXP MCU
+=====================================================================
+MCSPTR2A5775E Motor control application     Version: 1.0 
+ and MPC5775E configuration                 Author: NXP
+                                            License: LA_OPT_NXP_Software_License v14 August 2020 - Internal Use only
+                                            Content register: this file
+                                            Format: source code
+                                            Location: src/* excluding src/peripherals/etpu_set
+
+FreeMASTER Communication Driver             Content register: FreeMASTER_PPC/license/SW-Content-Register  
+    
+eTPU SW library code                        Author: NXP
+                                            License: LA_OPT_HOST_TOOL license v17 June 2020 
+                                            Format: source code, binary files
+                                            Location: src/peripherals/etpu_set
+                                            URL: https://www.nxp.com/webapp/etpu_cw/
